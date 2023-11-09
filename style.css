@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --primary-color: hsl(257, 40%, 49%);
+    --secondaty-color: hsl(300, 69%, 71%);
+}
+
+body {
+    /* font-family: 'Open Sans', sans-serif; */
+    /*opensans Pour les textes*/
+    font-family: 'Poppins', sans-serif;
+
+    background-color: var(--primary-color);
+    background-image: url(images/bg-desktop.svg);
+    color: white;
+
+}
+
+.navbar {
+    width: 85%;
+    margin: 40px auto;
+    border: 1px solid yellow;
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin: auto;
+    width: 85%;
+    border: 1px solid yellow;
+    padding: 20px 0;
+    gap: 25px;
+}
+
+
+.container {
+    border: 1px solid cyan;
+    width: 100%;
+    margin: auto;
+}
+
+.img {
+    width: 100%;
+}
