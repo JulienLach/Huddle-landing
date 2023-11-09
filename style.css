@@ -31,7 +31,7 @@ body {
     margin: auto;
     height: 500px;
     width: 85%;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     padding: 20px 0;
     gap: 50px;
 }
@@ -43,7 +43,7 @@ h1 {
 
 
 .container {
-    border: 1px solid cyan;
+    /* border: 1px solid cyan; */
     width: 100%;
     margin: auto;
     height: 380px;
@@ -52,7 +52,7 @@ h1 {
 .main-content {
     display: flex;
     flex-direction: column;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     height: 300px;
     justify-content: space-around;
     font-family: 'Open Sans', sans-serif;
@@ -98,7 +98,7 @@ h1 {
 .footer {
     width: 85%;
     margin: 60px auto;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
 }
 
 .social {
@@ -107,7 +107,7 @@ h1 {
     align-items: end;
     justify-content: end;
     gap: 18px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 75%;
     margin: auto;
 }
@@ -135,4 +135,81 @@ h1 {
 .footer .social i:hover {
     background-color: var(--secondaty-color);
     cursor: pointer;
+}
+
+@media (max-width: 770px) {
+
+    .navbar .logo-img {
+        height: 45px;
+        margin-top: 10px;
+    }
+
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 5px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .main-content {
+        height: 340px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+    }
+
+
+    .header-content h1 {
+        font-size: 30px;
+    }
+
+}
+
+
+@media (max-width: 375px) {
+
+    .navbar .logo-img {
+        height: 30px;
+        margin-top: 10px;
+    }
+
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        gap: 5px;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+
+    .main-content {
+        height: 340px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        max-width: 100%;
+    }
+
+
+    .header-content h1 {
+        font-size: 20px;
+    }
+
 }
